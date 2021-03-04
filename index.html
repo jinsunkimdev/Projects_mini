@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Create an Account</title>
+</head>
+
+<body>
+	<h1>Create an Account</h1>
+	<form action="" method="get" class="form__account">
+		<div class="form__firstName">
+			<label for="name">First Name</label>
+      <input type="text" name="name" id="first_name" minlength="2" maxlength="15" autocomplete="off" required>
+      </div>
+    <div class="form__lastName">
+      <label for="last_name">Last Name</label>
+      <input type="text" name="name" id="last_name" minlength="5" maxlength="20" autocomplete="off" required>
+      </div>
+    <div class="form__email">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email"  minlength="10" maxlength="25" size="23" placeholder="Jinsun@example.com" autocomplete="off" required>
+      </div>
+    <div class="form__username">
+      <label for="username">Username</label>
+      <input type="text" name="name" id="username" maxlength="25" autocomplete="off" required>
+      </div>
+    <div class="form__password">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" size="24" placeholder="Must be longer than 10characters" autocomplete="off" required>
+      </div>
+    <div class="form__birthdate">
+      <label for="birthdate">Birthdate</label>
+      <input type="date" name="birthdate" id="birthdate" required>
+      </div>
+    <div class="form__happy">
+      <label for="happy">How are you happy?</label>
+      <input type="range" name="happy" id="happy" required>
+      </div>
+    <div class="form__favColor">
+      <label for="color">What is your fav.color</label>
+      <input type="color" name="color" id="color" required>
+      </div>
+  <div class="button__account">
+    <input type="submit" value="Create Account!">
+  </div>
+    </form>
+  </body>
+</html>
